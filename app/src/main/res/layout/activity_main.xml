@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingTop="-8dp"
+    android:background="@drawable/background">
+
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="16dp"
+       android:layout_marginTop="8dp"
+       android:fontFamily="@font/lato_bold"
+       android:text="@string/four_logo"
+       android:textColor="@color/azul_claro"
+       android:textSize="26sp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="8dp"
+       android:fontFamily="@font/lato_bold"
+       android:text="@string/pay_logo"
+       android:textColor="@color/cinza"
+       android:textSize="26sp"
+       app:layout_constraintStart_toEndOf="@+id/textView"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="24dp"
+       android:layout_marginEnd="24dp"
+       android:layout_marginBottom="32dp"
+       android:fontFamily="@font/lato_regular"
+       android:text="@string/texto_intro"
+       android:textAlignment="center"
+       android:textColor="@color/black"
+       android:textSize="32sp"
+       android:alpha="0.8"
+       app:layout_constraintBottom_toTopOf="@+id/btnComecar"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent" />
+
+   <android.widget.Button
+       android:id="@+id/btnComecar"
+       android:layout_width="0dp"
+       android:textSize="14sp"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="24dp"
+       android:layout_marginEnd="24dp"
+       android:layout_marginBottom="16dp"
+       android:background="@drawable/btn_custom"
+       android:drawableEnd="@drawable/ic_seta"
+       android:drawablePadding="-20dp"
+       android:fontFamily="@font/nunito_bold"
+       android:onClick="abrirCadastro"
+       android:padding="16dp"
+       android:text="@string/btn_comecar"
+       android:textColor="@color/azul_claro"
+       app:layout_constraintBottom_toTopOf="@+id/txtEntrarConta"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent" />
+
+   <TextView
+       android:id="@+id/txtEntrarConta"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:onClick="abrirlogin"
+       android:layout_marginBottom="48dp"
+       android:fontFamily="@font/nunito_semi"
+       android:text="@string/entrar_conta"
+       android:textColor="@color/outro_branco"
+       android:textSize="18sp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

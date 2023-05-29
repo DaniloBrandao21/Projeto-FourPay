@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">FourPay</string>
+
+    <!-- Textos splash -->
+    <string name="cd_logo_fourpay">Logo fourpay</string>
+
+    <!-- Textos tela de introdução !-->
+
+    <string name="entrar_conta">Entrar na minha conta</string>
+    <string name="texto_intro">Uma maneira de ver o mundo financeiro sem complexidades!</string>
+    <string name="btn_comecar">Começar</string>
+    <string name="Volta">Que bom ter você de volta!</string>
+
+    <!-- Texto Logo -->
+    <string name="four_logo">four</string>
+    <string name="pay_logo">pay</string>
+
+    <!-- Textos tela de login !-->
+    <string name="cd_botao_voltar">Botão voltar</string>
+    <string name="cpf">CPF</string>
+    <string name="senha">SENHA</string>
+    <string name="acessar">Acessar</string>
+    <string name="mantenha">Mantenha-me conectado</string>
+
+    <!-- Textos tela de cadastro !-->
+    <string name="senha_">senha</string>
+    <string name="boas_vindas">Boas vindas...</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="termos">Li e concordo com os</string>
+    <string name="termos2">Termos e condições.</string>
+    <string name="texto_boas_vindas">Para começar, precisaremos que informe alguns dados pessoais para realizarmos a abertura da sua conta.</string>
+    <string name="nome_completo">Nome Completo</string>
+    <string name="rg">RG</string>
+    <string name="email">E-mail</string>
+    <string name="celular">Celular</string>
+    <string name="nascimento">DD/MM/AAAA</string>
+    <string name="cep">CEP 00000-000</string>
+    <string name="endereco">Endereço</string>
+    <string name="numero">Número</string>
+    <string name="complemento">Complemento</string>
+    <string name="cidade">Cidade</string>
+    <string name="bairro">Bairro</string>
+    <string name="estado">Estado</string>
+    <string name="renda">Renda Mensal</string>
+    <string name="estado_civil">Estado Civil</string>
+    <string name="confirmar_senha">Confirmar Senha</string>
+
+    <!-- Textos Enviafoto !-->
+    <string name="ou">OU</string>
+    <string name="confirme_identidade">Confirme sua Identidade!</string>
+    <string name="envie_foto">Por favor, envie uma foto de seu rosto!</string>
+    <string name="galeria">Galeria</string>
+    <string name="camera">Camera</string>
+    <string name="enviar">Enviar</string>
+
+    <!-- Textos Termos !-->
+    <string name="termotitulo">Termos e Condições</string>
+
+    <string name="textotermo">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+        magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+        labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+        no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+        sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+        Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+        sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+        erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+        Lorem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+        ipsum dolor sit amet. Lorem ipsum dolor sit amet.</string>
+
+    <!-- Textos Validação Foto !-->
+    <string name="validando_foto">Estamos validando a sua foto!</string>
+    <string name="subtitulo_validando_foto">Isso pode demorar um pouco!</string>
+    <string name="foto_verificada">Sua foto foi validada com sucesso!</string>
+    <string name="foto_não_verificada">Sua foto não pode ser validada. Tente novamente!</string>
+    <string name="continuar_foto">CONTINUAR</string>
+    <string name="tente_outra_vez">TENTAR OUTRA VEZ</string>
+    <string name="foto_aprovada">foto aprovada</string>
+    <string name="foto_reprovada">foto aprovada</string>
+
+    <!-- Textos Cartão !-->
+    <string name="escolha_cartao">Escolha do cartão</string>
+    <string name="desejo_cartao">Qual cartão você deseja?</string>
+    <string name="debito_credito">Cartão de Débito e Crédito</string>
+    <string name="debito_credito_int">Cartão de Débito e Crédito Internacional</string>
+    <string name="lorem1_cartoes">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem.</string>
+    <string name="cartao_master">cartão master</string>
+    <string name="cartao_visa">cartão visa</string>
+
+    <!-- Textos home-->
+    <string name="fourshopping">FourShopping</string>
+    <string name="recarga_celular">Recarga Celular</string>
+    <string name="emprestimo">Emprestimo</string>
+    <string name="meus_cartoes">Meus cartões</string>
+    <string name="recarga">Recarga</string>
+    <string name="transferir">Transferir</string>
+    <string name="pagar">Pagar</string>
+    <string name="pix">PIX</string>
+    <string name="demais_servicos">Demais serviços</string>
+    <string name="confiravantagens">Confira as Vantagens Exclusivas para você</string>
+    <string name="veja_como_recarregar">Veja como recarregar o seu celular</string>
+    <string name="conheca_servicos">Conheça todos os serviços disponíveis</string>
+    <string name="versao_app">App version 1.0.1</string>
+    <string name="ola_adriano">Olá, Adriano!</string>
+    <string name="meu_saldo">Meu Saldo</string>
+    <string name="saldo_exemplo">99.999,00</string>
+    <string name="principais_servicos">Principais serviços</string>
+    <string name="reais">R$</string>
+    <!-- Textos tela Recarga-->
+    <string name="recarga_de_celular">Recarga de celular</string>
+    <string name="informe_o_numero">Informe o número</string>
+    <string name="numero_celular">(00) 00000-0000</string>
+    <string name="digite_o_valor">Digite o valor:</string>
+    <string name="Valor_recarga">R$ 0,00</string>
+    <string name="selecione_a_operadora">Selecione a operadora:</string>
+    <string name="operadora">Operadora</string>
+    <string name="selecione_a_forma_de_pagamento">Selecione a forma de pagamento:</string>
+    <string name="pagamento">Pagamento</string>
+    <!-- Textos tela RecargaConfirma-->
+    <string name="numero_de_celular">Número:</string>
+    <string name="dd_numero">(00) 00000-0000</string>
+    <string name="valor">Valor:</string>
+    <string name="Valor_Confirmacao_recarga">R$ 00,00</string>
+    <string name="operadora_confirma">Operadora:</string>
+    <string name="fourcall">FourCall</string>
+    <string name="pagamento_confirma">Pagamento</string>
+    <string name="fourcredit">FourCredit</string>
+    <string name="botao_confirmar">Confirmar</string>
+    <!-- Textos tela Emprestimo-->
+    <string name="empr_stimos">Empréstimos</string>
+    <string name="valor_dispon_vel_para_voc">Valor disponível para você:</string>
+    <string name="RS5_000_00">R$ 5.000,00</string>
+    <string name="qual_valor_deseja_simular">Qual valor deseja simular?</string>
+    <string name="RS_00_00">R$ 00,00</string>
+    <string name="quantas_parcelas">Quantas parcelas?</string>
+    <string name="parcelas">3x</string>
+    <string name="qual_a_melhor_data_de_pagamento">Qual a melhor data de pagamento?</string>
+    <string name="dia_pagamento">Dia 10</string>
+    <string name="simular">SIMULAR</string>
+    <!-- Textos tela emprestimo_confirma-->
+    <string name="emprestimos">Empréstimos</string>
+    <string name="confirme_os_valores">Confirme os valores</string>
+    <string name="valor_emprestimo_confirma">R$ 0.000,00</string>
+    <string name="quantidade_de_parcelas_confirma">Quantidade de parcelas:</string>
+    <string name="digite_quantidade_parcelas">3x</string>
+    <string name="dia_pagamento_confirma">Dia 10</string>
+    <string name="data_de_pagamento_emprestimo_confirma">Data de pagamento:</string>
+    <string name="contratarEmprestimo">Contratar</string>
+
+
+</resources>

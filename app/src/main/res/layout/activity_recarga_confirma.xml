@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/outro_branco"
+    android:orientation="vertical"
+    tools:context=".RecargaConfirmaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="32dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="32dp"
+                android:onClick="voltaRecarga"
+                android:src="@drawable/ic_baseline_voltar"
+                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+                android:contentDescription="@string/cd_botao_voltar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/nunito_semi"
+                android:text="@string/recarga_de_celular"
+                android:textColor="@color/cinza"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginStart="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/nunito_semi"
+            android:lineSpacingExtra="4dp"
+            android:text="Confirme os dados informados"
+            android:textAlignment="center"
+            android:textColor="@color/cinza"
+            android:textSize="20sp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_semi"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/numero_de_celular"
+            android:textAlignment="center"
+            android:textColor="@color/cinza"
+            android:textSize="20sp"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/nunito_semi"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/dd_numero"
+                android:textAlignment="center"
+                android:textColor="@color/azul_claro"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/nunito_semi"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/valor"
+                android:textAlignment="center"
+                android:textColor="@color/cinza"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/nunito_semi"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/Valor_Confirmacao_recarga"
+                android:textAlignment="center"
+                android:textColor="@color/azul_claro"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/nunito_semi"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/operadora_confirma"
+                android:textAlignment="center"
+                android:textColor="@color/cinza"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/nunito_semi"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/fourcall"
+                android:textAlignment="center"
+                android:textColor="@color/azul_claro"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/nunito_semi"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/pagamento_confirma"
+                android:textAlignment="center"
+                android:textColor="@color/cinza"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/nunito_semi"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/fourcredit"
+                android:textAlignment="center"
+                android:textColor="@color/azul_claro"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            android:background="@drawable/btn_azul"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/botao_confirmar"
+            android:textColor="@color/outro_branco" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="95dp"
+            android:layout_marginStart="145dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/four_logo"
+            android:textColor="@color/azul_claro"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="95dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/pay_logo"
+            android:textColor="@color/cinza"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+</LinearLayout>

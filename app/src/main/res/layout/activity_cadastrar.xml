@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/outro_branco"
+    android:orientation="vertical"
+    tools:context=".CadastrarActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="32dp">
+
+        <!-- Linear topo boas vindas -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="32dp"
+                android:onClick="voltarInicio"
+                android:src="@drawable/ic_baseline_voltar"
+                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+                android:contentDescription="@string/cd_botao_voltar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/boas_vindas"
+                android:textColor="@color/cinza"
+                android:textSize="26sp" />
+
+        </LinearLayout> <!-- Linear topo boas vindas -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/lato_regular"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/texto_boas_vindas"
+            android:textAlignment="center"
+            android:textColor="@color/cinza"
+            android:textSize="20sp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_pessoa_dois"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/nome_completo"
+            android:inputType="textPersonName"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_documentos"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/cpf"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_documentos"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/rg"
+            android:inputType="number"
+            android:maxLength="9"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_email"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_telefone"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/celular"
+            android:inputType="phone"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/nascimento"
+            android:inputType="date"
+            android:maxLength="10"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_cep"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/cep"
+            android:inputType="number"
+            android:maxLength="9"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_endereco_dois"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/endereco"
+            android:inputType="text"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_numero"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/numero"
+            android:inputType="number"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_complemento"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/complemento"
+            android:inputType="text"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_estado"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/cidade"
+            android:inputType="text"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_bairro"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/bairro"
+            android:inputType="text"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_mapa"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/estado"
+            android:inputType="text"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_renda"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/renda"
+            android:inputType="number"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_estado_civil"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/estado_civil"
+            android:inputType="text"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_senha"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/senha_"
+            android:inputType="numberPassword"
+            android:maxLength="6"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:drawableEnd="@drawable/ic_senha"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/confirmar_senha"
+            android:inputType="numberPassword"
+            android:maxLength="6"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:buttonTint="@color/cinza"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:textColor="@color/cinza"
+            android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cinza"
+                android:fontFamily="@font/lato_regular"
+                android:text="@string/termos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="verTermos"
+                android:textColor="@color/azul_medio"
+                android:layout_marginStart="3dp"
+                android:fontFamily="@font/lato_regular"
+                android:text="@string/termos2" />
+
+        </LinearLayout>
+
+        <android.widget.Button
+            android:onClick="enviarFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp"
+            android:background="@drawable/btn_azul"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/continuar"
+            android:textColor="@color/outro_branco" />
+    </LinearLayout>
+
+</ScrollView>

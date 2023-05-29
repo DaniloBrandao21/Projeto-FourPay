@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/outro_branco"
+    android:orientation="vertical"
+    tools:context=".EmprestimoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="32dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="32dp"
+                android:onClick="voltaHome"
+                android:src="@drawable/ic_baseline_voltar"
+                tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck"
+                android:contentDescription="@string/cd_botao_voltar" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/nunito_semi"
+                android:text="@string/empr_stimos"
+                android:textColor="@color/cinza"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_semi"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/valor_dispon_vel_para_voc"
+            android:layout_marginStart="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/cinza"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_semi"
+            android:text="@string/RS5_000_00"
+            android:layout_marginStart="90dp"
+            android:textAlignment="center"
+            android:textColor="@color/azul_claro"
+            android:textSize="26sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_semi"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/qual_valor_deseja_simular"
+            android:layout_marginStart="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/cinza"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:fontFamily="@font/ubuntu_regular"
+            android:hint="@string/RS_00_00"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="16sp"
+            android:autofillHints="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_semi"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/quantas_parcelas"
+            android:layout_marginStart="80dp"
+            android:textAlignment="center"
+            android:textColor="@color/cinza"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:textAlignment="center"
+            android:fontFamily="@font/nunito_semi"
+            android:hint="@string/parcelas"
+            android:inputType="number"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_semi"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/qual_a_melhor_data_de_pagamento"
+            android:layout_marginStart="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/cinza"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edt_custom"
+            android:textAlignment="center"
+            android:fontFamily="@font/nunito_semi"
+            android:hint="@string/dia_pagamento"
+            android:inputType="number"
+            android:textColor="@color/azul_medio"
+            android:textColorHint="@color/azul_claro"
+            android:textCursorDrawable="@drawable/cursor_custom"
+            android:textSize="14sp"
+            android:autofillHints="1" />
+
+        <android.widget.Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp"
+            android:background="@drawable/btn_azul"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/simular"
+            android:onClick="AbrirEmprestimoConfirma"
+            android:textColor="@color/outro_branco" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="145dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/four_logo"
+            android:textColor="@color/azul_claro"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="@string/pay_logo"
+            android:textColor="@color/cinza"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+</LinearLayout>
